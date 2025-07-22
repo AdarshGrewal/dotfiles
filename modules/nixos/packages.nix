@@ -6,6 +6,9 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # ZSH
+  programs.zsh.enable = true;
+
   # Systemwide Packages
   environment.systemPackages = with pkgs; [
     git
