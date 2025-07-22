@@ -19,7 +19,6 @@
   users.users.adarsh = {
     packages = with pkgs; [
       kdePackages.kate
-      vscode
     ];
   };
 }
