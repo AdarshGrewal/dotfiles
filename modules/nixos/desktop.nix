@@ -3,20 +3,21 @@
 { config, pkgs, ... }:
 
 {
-  # Enable the X11 windowing system.
-  services.xserver.enable = true;
-
   # Enable NetworkManager
   networking.networkmanager.enable = true;
 
-  # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
+  # Enable the Hyprland WM.
+  programs.hyprland = {
+    enable = true;
+    withUWSM = true;
+  };
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
-  # Configure keymap in X11.
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
+  services.displayManager = {
+    sddm = {
+      enable = true;
+      wayland.enable = true;
+    };
   };
 
   # Printing support (CUPS)

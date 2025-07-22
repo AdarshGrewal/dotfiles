@@ -9,6 +9,7 @@
 }:
 {
   imports = [
+    ./hypr
     ./home.nix
     ./git.nix
     ./packages.nix

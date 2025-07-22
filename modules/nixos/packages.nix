@@ -13,12 +13,12 @@
   environment.systemPackages = with pkgs; [
     git
     htop
+    kitty
   ];
 
   # User Packages
-  users.users.adarsh = {
-    packages = with pkgs; [
-      kdePackages.kate
-    ];
-  };
+  #users.users.adarsh = {
+  #  packages = with pkgs; [
+  #  ];
+  #};
 }
