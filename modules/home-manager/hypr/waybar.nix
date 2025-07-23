@@ -38,6 +38,7 @@ programs.waybar = {
         "bluetooth"
         "network"
         "wireplumber"
+        "custom/notifications"
       ];
 
       "wlr/taskbar" = {
@@ -134,6 +135,15 @@ programs.waybar = {
         };
         on-click = "pamixer -t";
         scroll-step = 1;
+      };
+
+      "custom/notifications" = {
+        exec-if = "which swaync-client";
+        exec = "swaync-client -swb";
+        format = "";
+        tooltip = false;
+        on-click = "sleep 0.1 && swaync-client -t -sw";
+        escape = true;
       };
     }
   ];

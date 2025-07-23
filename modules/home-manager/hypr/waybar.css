@@ -58,6 +58,7 @@ window#waybar.hidden {
 #bluetooth,
 #network,
 #clock,
+#custom-notifications,
 #tray {
   border-radius: 4px;
   margin: 6px 3px;
@@ -96,6 +97,7 @@ window#waybar.hidden {
 
 #wireplumber {
   background-color: #f9e2af;
+  padding-right: 17px;
 }
 
 #bluetooth {
@@ -117,6 +119,10 @@ window#waybar.hidden {
   background-color: #f2cdcd;
 }
 
+#custom-notifications {
+  background-color: #89b4fa;
+  padding-right: 17px;
+}
 
 tooltip {
   border-radius: 8px;
