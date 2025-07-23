@@ -55,6 +55,7 @@ window#waybar.hidden {
 #battery,
 #backlight,
 #wireplumber,
+#bluetooth,
 #network,
 #clock,
 #tray {
@@ -95,6 +96,11 @@ window#waybar.hidden {
 
 #wireplumber {
   background-color: #f9e2af;
+}
+
+#bluetooth {
+  background-color: #f2cdcd;
+  padding-right: 17px;
 }
 
 #network {

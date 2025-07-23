@@ -35,6 +35,7 @@ programs.waybar = {
       modules-right = [
         "tray"
         "memory"
+        "bluetooth"
         "network"
         "wireplumber"
       ];
@@ -88,6 +89,23 @@ programs.waybar = {
         tooltip-format = "{calendar}";
         format-alt = "  {:%a, %d %b %Y}";
         format = "  {:%I:%M %p}";
+      };
+
+      bluetooth = {
+        format = "{icon}";
+        format-on = "󰂯";           # Show Bluetooth icon when adapter is on
+        format-off = "󰂲";          # Show 'off' icon when adapter is off
+        format-connected = "󰂱 {device_alias}";
+        tooltip-format = "{controller_alias}\n{num_connections} connected";
+        tooltip-format-connected = "{controller_alias}\nConnected: {device_enumerate}";
+        tooltip-format-enumerate-connected = "{device_alias}";
+        on-click = "~/.dotfiles/scripts/bluetooth-menu --custom wofi '--columns=1 --dmenu --insensitive --prompt' '-d -p' '-d --password --prompt' &";
+        interval = 10;
+        format-icons = {
+          on = "󰂯";
+          off = "󰂲";
+          connected = "󰂱";
+        };
       };
 
       network = {
