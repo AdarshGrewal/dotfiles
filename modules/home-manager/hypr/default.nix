@@ -10,6 +10,7 @@
 {
   imports = [
     ./hyprland.nix
+    ./hyprpaper.nix
     ./hyprpolkitagent.nix
     ./waybar.nix
     ./wofi.nix
