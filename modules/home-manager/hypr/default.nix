@@ -24,7 +24,6 @@
     hyprpicker
     kdePackages.dolphin
     swaynotificationcenter
-    udiskie
     wl-clip-persist
     hyprsysteminfo
     pkgs.catppuccin-cursors.mochaFlamingo
