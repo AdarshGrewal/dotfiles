@@ -45,6 +45,7 @@
       # See https://wiki.hypr.land/Configuring/Environment-variables/
 
       env = XCURSOR_SIZE,24
+      env = XCURSOR_THEME=catppuccin-cursors
       env = HYPRCURSOR_SIZE,24
 
 
