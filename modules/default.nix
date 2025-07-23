@@ -9,7 +9,12 @@
     useGlobalPkgs = false;
     useUserPackages = true;
     users = {
-      adarsh = import ./home-manager;
+      adarsh = {
+        imports = [
+          ./home-manager
+          inputs.spicetify-nix.homeManagerModules.default
+        ];
+      };
     };
   };
 }
