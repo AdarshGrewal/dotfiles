@@ -13,6 +13,7 @@
     ./hyprpolkitagent.nix
     ./waybar.nix
     ./wofi.nix
+    ./kitty.nix
   ];
 
   home.packages = with pkgs; [
