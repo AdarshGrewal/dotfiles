@@ -22,7 +22,8 @@
   home.packages = with pkgs; [
     hyprshot
     hyprpicker
-    kdePackages.dolphin
+    nautilus
+    nautilus-open-any-terminal
     swaynotificationcenter
     wl-clip-persist
     hyprsysteminfo
