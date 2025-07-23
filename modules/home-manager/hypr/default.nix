@@ -28,5 +28,6 @@
     wl-clip-persist
     hyprsysteminfo
     pkgs.catppuccin-cursors.mochaFlamingo
+    hyprutils
   ];
 }
