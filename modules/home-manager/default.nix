@@ -12,6 +12,7 @@
     ./hypr
     ./home.nix
     ./git.nix
+    ./gtk-qt.nix
     ./packages.nix
     ./vscode.nix
     ./zsh.nix
