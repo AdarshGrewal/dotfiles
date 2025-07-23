@@ -10,6 +10,7 @@
 {
   imports = [
     ./hypr
+    ./fastfetch.nix
     ./home.nix
     ./git.nix
     ./gtk-qt.nix
