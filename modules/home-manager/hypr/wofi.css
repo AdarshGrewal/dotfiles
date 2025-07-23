@@ -1,51 +1,66 @@
-window {
-margin: 0px;
-border: 1px solid #bd93f9;
-background-color: #282a36;
-}
-
-#input {
-margin: 5px;
-border: none;
-color: #f8f8f2;
-background-color: #44475a;
-}
-
-#inner-box {
-margin: 5px;
-border: none;
-background-color: #282a36;
+#window {
+    border-radius: 0;
 }
 
 #outer-box {
-margin: 5px;
-border: none;
-background-color: #282a36;
+    background-color: rgb(30, 30, 46);
 }
 
-#scroll {
-margin: 0px;
-border: none;
+#input {
+    margin: 10px 8px 4px;
+    font-weight: bold;
+    background-color: rgb(49, 50, 68);
+    /* border-radius: 25px; */
+    border-radius: 0;
+    border-color: rgb(24, 24, 37);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
 }
 
-#text {
-margin: 5px;
-border: none;
-color: #f8f8f2;
-} 
-
-#entry.activatable #text {
-color: #282a36;
+#inner-box {
+    margin: 6px;
 }
 
-#entry > * {
-color: #f8f8f2;
+#img {
+    padding: 0 10px 0 5px;
+}
+
+* {
+    font-family: Iosevka Nerd Font;
+    color: rgb(205, 214, 244);
+    /* font-size: 16px; */
+}
+
+#entry {
+    border-radius: 0;
+}
+
+* {
+    outline-width: 0;
 }
 
 #entry:selected {
-background-color: #44475a;
+    background-color: transparent;
 }
 
-#entry:selected #text {
-font-weight: bold;
+#text:selected {
+    font-weight: bold;
+    color: rgb(148, 226, 213);
+}
+
+arrow {
+    color: rgb(180, 190, 254);
+}
+
+list {
+    background-color: transparent;
+}
+    
+row {
+    margin: 4px 4px 0;
+    padding: 5px 20px;
+}
+
+box > .drun-generic-name {
+    font-style: italic;
 }
