@@ -20,6 +20,9 @@
     };
   };
 
+  # Enable pam for hyprlock
+  security.pam.services.hyprlock = {};
+
   # Printing support (CUPS)
   services.printing.enable = true;
 }

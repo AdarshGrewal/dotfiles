@@ -289,6 +289,9 @@
       # Screenshot a region
       bind = $shiftMod, PRINT, exec, hyprshot -m region
 
+      # Lock screen
+      bind = $mainMod, L, exec, hyprlock
+
       ##############################
       ### WINDOWS AND WORKSPACES ###
       ##############################
