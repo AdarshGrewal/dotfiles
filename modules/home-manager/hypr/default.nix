@@ -17,6 +17,7 @@
     ./waybar.nix
     ./wofi.nix
     ./kitty.nix
+    ./swaync.nix
   ];
 
   home.packages = with pkgs; [
@@ -24,7 +25,6 @@
     hyprpicker
     nautilus
     nautilus-open-any-terminal
-    swaynotificationcenter
     wl-clip-persist
     hyprsysteminfo
     pkgs.catppuccin-cursors.mochaFlamingo
