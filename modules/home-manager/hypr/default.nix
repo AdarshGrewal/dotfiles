@@ -9,6 +9,7 @@
 }:
 {
   imports = [
+    ./hypridle.nix
     ./hyprland.nix
     ./hyprpaper.nix
     ./hyprpolkitagent.nix
