@@ -99,7 +99,7 @@ programs.waybar = {
         tooltip-format-wifi = "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}";
         tooltip-format-ethernet = "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}";
         tooltip-format-disconnected = "Disconnected";
-        on-click = "~/.dotfiles/scripts/wifimenu --custom wofi '--dmenu --insensitive --prompt' '-d -p' '-d --password --prompt' &";
+        on-click = "~/.dotfiles/scripts/wifimenu --custom wofi '--columns=1 --dmenu --insensitive --prompt' '-d -p' '-d --password --prompt' &";
         interval = 5;
         nospacing = 1;
       };
