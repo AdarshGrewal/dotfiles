@@ -26,5 +26,6 @@
     swaynotificationcenter
     udiskie
     wl-clip-persist
+    hyprsysteminfo
   ];
 }
