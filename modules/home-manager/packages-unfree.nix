@@ -8,8 +8,11 @@
   ...
 }:
 {
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    telegram-desktop
+    google-chrome
+    sublime-merge
   ];
 }

@@ -15,6 +15,7 @@
     ./git.nix
     ./gtk-qt.nix
     ./packages.nix
+    ./packages-unfree.nix
     ./spicetify.nix
     ./vscode.nix
     ./zsh.nix
