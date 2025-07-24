@@ -16,6 +16,7 @@
 
       # See https://wiki.hypr.land/Configuring/Monitors/
       monitor=,preferred,auto,auto
+      monitor=desc:AOC CU34G2XP WOT22Q3900005,3440x1440@144,auto,auto,bitdepth,10
 
 
       ###################
