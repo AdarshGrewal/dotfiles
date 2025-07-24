@@ -9,6 +9,7 @@
   # Systemwide Packages
   environment.systemPackages = with pkgs; [
     git
+    git-lfs
     pre-commit
     cabal-install
     ghc
