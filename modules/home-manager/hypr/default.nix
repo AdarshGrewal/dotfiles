@@ -29,5 +29,6 @@
     hyprsysteminfo
     pkgs.catppuccin-cursors.mochaFlamingo
     hyprutils
+    udiskie
   ];
 }

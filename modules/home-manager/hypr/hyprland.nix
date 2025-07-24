@@ -35,7 +35,7 @@
       # exec-once = nm-applet &
       # exec-once = waybar & hyprpaper & firefox
       exec-once = wl-clip-persist --clipboard regular
-
+      exec-once = udiskie &
 
       #############################
       ### ENVIRONMENT VARIABLES ###
