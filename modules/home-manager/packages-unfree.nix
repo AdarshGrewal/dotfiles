@@ -12,6 +12,7 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
+    android-studio
     google-chrome
     sublime-merge
   ];

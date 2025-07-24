@@ -10,6 +10,7 @@
 {
 
   home.packages = with pkgs; [
+    android-tools
     telegram-desktop
   ];
 }
