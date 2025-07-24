@@ -9,6 +9,10 @@
   # Systemwide Packages
   environment.systemPackages = with pkgs; [
     git
+    pre-commit
+    cabal-install
+    ghc
+
     htop
     kitty
 
