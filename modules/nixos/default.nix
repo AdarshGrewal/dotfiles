@@ -8,6 +8,7 @@
     ./bootloader.nix
     ./desktop.nix
     ./locale.nix
+    ./packages-unfree.nix
     ./packages.nix
     ./users.nix
     ./zram.nix
