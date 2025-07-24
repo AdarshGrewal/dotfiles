@@ -12,6 +12,7 @@
   programs.kitty = {
     enable = true;
     extraConfig = ''
+      window_padding_width 4
       ## upstream: https://github.com/catppuccin/kitty/blob/main/themes/mocha.conf
 
       # The basic colors
