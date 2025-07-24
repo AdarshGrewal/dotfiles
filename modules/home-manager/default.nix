@@ -11,11 +11,11 @@
   imports = [
     ./hypr
     ./fastfetch.nix
-    ./home.nix
     ./git.nix
     ./gtk-qt.nix
-    ./packages.nix
+    ./home.nix
     ./packages-unfree.nix
+    ./packages.nix
     ./spicetify.nix
     ./vscode.nix
     ./zsh.nix

@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/swaync.nix
+
 {
   inputs,
   outputs,
@@ -9,6 +11,6 @@
 {
   services.swaync = {
     enable = true;
-    style = builtins.readFile ./swaync.css;  # or an absolute path to your CSS file
+    style = builtins.readFile ./swaync.css; # or an absolute path to your CSS file
   };
 }

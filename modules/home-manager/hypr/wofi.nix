@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/wofi.nix
+
 {
   inputs,
   outputs,

@@ -1,3 +1,5 @@
+# modules/home-manager/gtk-qt.nix
+
 {
   lib,
   pkgs,

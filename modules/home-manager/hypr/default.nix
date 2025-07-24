@@ -14,10 +14,10 @@
     ./hyprlock.nix
     ./hyprpaper.nix
     ./hyprpolkitagent.nix
-    ./waybar.nix
-    ./wofi.nix
     ./kitty.nix
     ./swaync.nix
+    ./waybar.nix
+    ./wofi.nix
   ];
 
   home.packages = with pkgs; [

@@ -1,3 +1,5 @@
+# modules/home-manager/vscode.nix
+
 {
   inputs,
   outputs,

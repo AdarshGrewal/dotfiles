@@ -1,3 +1,5 @@
+# modules/home-manager/zsh.nix
+
 {
   inputs,
   outputs,

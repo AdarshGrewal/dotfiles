@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/hyprlock.nix
+
 {
   inputs,
   outputs,

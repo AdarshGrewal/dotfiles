@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/hypridle.nix
+
 {
   inputs,
   outputs,

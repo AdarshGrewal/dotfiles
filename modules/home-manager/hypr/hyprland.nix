@@ -1,4 +1,10 @@
-{ config, pkgs, ... }:
+# modules/home-manager/hypr/hyprland.nix
+
+{
+  config,
+  pkgs,
+  ...
+}:
 
 {
   wayland.windowManager.hyprland = {

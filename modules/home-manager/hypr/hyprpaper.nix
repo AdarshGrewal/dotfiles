@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/hyprpaper.nix
+
 {
   inputs,
   outputs,
@@ -19,4 +21,3 @@
     };
   };
 }
-

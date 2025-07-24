@@ -21,7 +21,7 @@
   };
 
   # Enable pam for hyprlock
-  security.pam.services.hyprlock = {};
+  security.pam.services.hyprlock = { };
 
   # Enable udisks2 service
   services.udisks2.enable = true;

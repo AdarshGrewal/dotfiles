@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/hyprpolkitagent.nix
+
 {
   inputs,
   outputs,

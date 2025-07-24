@@ -1,3 +1,5 @@
+# modules/home-manager/fastfetcg.nix
+
 {
   inputs,
   outputs,
@@ -21,7 +23,10 @@
       };
 
       modules = [
-        { type = "custom"; format = "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"; }
+        {
+          type = "custom";
+          format = "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓";
+        }
         "break"
         {
           type = "os";
@@ -54,7 +59,10 @@
           keyColor = "yellow";
         }
         "break"
-        { type = "custom"; format = "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"; }
+        {
+          type = "custom";
+          format = "┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫";
+        }
         "break"
         {
           type = "host";
@@ -82,7 +90,10 @@
           keyColor = "bright_cyan";
         }
         "break"
-        { type = "custom"; format = "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"; }
+        {
+          type = "custom";
+          format = "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛";
+        }
       ];
     };
   };

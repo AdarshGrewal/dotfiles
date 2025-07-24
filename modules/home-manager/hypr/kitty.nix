@@ -1,3 +1,5 @@
+# modules/home-manager/hypr/kitty.nix
+
 {
   inputs,
   outputs,
