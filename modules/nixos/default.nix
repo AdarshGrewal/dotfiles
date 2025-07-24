@@ -10,5 +10,6 @@
     ./locale.nix
     ./packages.nix
     ./users.nix
+    ./zram.nix
   ];
 }
