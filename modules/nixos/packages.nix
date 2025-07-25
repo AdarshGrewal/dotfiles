@@ -82,6 +82,8 @@
     usbutils # lsusb
     nixfmt-rfc-style
     erofs-utils
+    clang-tools
+    libclang.python
   ];
 
   # User Packages
