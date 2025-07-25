@@ -13,5 +13,6 @@
     bitwarden-desktop
     git-repo
     telegram-desktop
+    qbittorrent
   ];
 }
