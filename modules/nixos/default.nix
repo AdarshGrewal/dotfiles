@@ -4,6 +4,7 @@
 
 {
   imports = [
+    ./android.nix
     ./audio.nix
     ./bootloader.nix
     ./desktop.nix

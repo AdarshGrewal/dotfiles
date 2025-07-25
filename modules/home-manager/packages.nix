@@ -10,7 +10,6 @@
 {
 
   home.packages = with pkgs; [
-    android-tools
     bitwarden-desktop
     git-repo
     telegram-desktop
