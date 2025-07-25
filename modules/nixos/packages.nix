@@ -81,6 +81,7 @@
     pciutils # lspci
     usbutils # lsusb
     nixfmt-rfc-style
+    erofs-utils
   ];
 
   # User Packages
