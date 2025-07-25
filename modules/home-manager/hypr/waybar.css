@@ -51,6 +51,7 @@ window#waybar.hidden {
 }
 
 #memory,
+#cpu,
 #custom-power,
 #battery,
 #backlight,
@@ -72,6 +73,10 @@ window#waybar.hidden {
 }
 
 #memory {
+  background-color: #f5e0dc;
+}
+
+#cpu {
   background-color: #fab387;
 }
 

@@ -37,6 +37,7 @@
         modules-right = [
           "tray"
           "memory"
+          "cpu"
           "bluetooth"
           "network"
           "wireplumber"
@@ -78,9 +79,20 @@
           };
         };
 
+        cpu = {
+          interval = 5;
+          format = " {}%";
+          max-length = 10;
+          tooltip = true;
+          format-icons = [
+            ""
+            ""
+          ];
+        };
+
         memory = {
           interval = 5;
-          format = "󰍛 {}%";
+          format = " {}%";
           max-length = 10;
         };
 
