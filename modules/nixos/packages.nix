@@ -96,6 +96,8 @@ in
       moreutils
       jadx
       gh
+      libxml2
+      brotli
     ]
     ++ [
       customPackages.xmp_pp
