@@ -8,6 +8,7 @@
     ./audio.nix
     ./bootloader.nix
     ./desktop.nix
+    ./fs.nix
     ./locale.nix
     ./packages-unfree.nix
     ./packages.nix
