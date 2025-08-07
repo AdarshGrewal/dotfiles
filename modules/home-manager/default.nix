@@ -28,5 +28,6 @@
     vlc
     file-roller
     gnome-text-editor
+    baobab
   ];
 }
