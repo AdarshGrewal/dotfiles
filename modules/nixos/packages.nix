@@ -84,6 +84,12 @@
     erofs-utils
     clang-tools
     libclang.python
+
+    apktool
+    xmlstarlet
+    moreutils
+    jadx
+    gh
   ];
 
   # User Packages
