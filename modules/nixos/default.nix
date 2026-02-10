@@ -4,6 +4,7 @@
 
 {
   imports = [
+    ./1password.nix
     ./android.nix
     ./audio.nix
     ./bootloader.nix

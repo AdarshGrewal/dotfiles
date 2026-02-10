@@ -10,7 +10,6 @@
 {
 
   home.packages = with pkgs; [
-    bitwarden-desktop
     git-repo
     telegram-desktop
     qbittorrent
