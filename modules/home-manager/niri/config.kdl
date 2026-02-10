@@ -89,7 +89,7 @@ overview {
 }
 
 spawn-at-startup "waybar"
-spawn-at-startup "swaybg -i ~/.dotfiles/assets/walpapers/wallpaper.jpg"
+spawn-at-startup "swaybg" "-i" "/home/adarsh/.dotfiles/assets/walpapers/wallpaper.jpg"
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
 spawn-at-startup "udiskie"
