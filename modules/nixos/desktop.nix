@@ -14,9 +14,9 @@
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   services.displayManager = {
-    sddm = {
+    ly = {
       enable = true;
-      wayland.enable = true;
+      x11Support = false;
     };
   };
 
