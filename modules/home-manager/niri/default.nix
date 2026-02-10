@@ -13,6 +13,7 @@ in
 {
   imports = [
     ./swaylock
+    ./swayidle.nix
     ./waybar
   ];
 
