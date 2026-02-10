@@ -14,7 +14,7 @@ in
   home.packages = with pkgs; [
     pavucontrol
     nerd-fonts.jetbrains-mono
-    pamixer
+    networkmanagerapplet
   ];
 
   xdg.configFile."waybar/config".source =
@@ -22,12 +22,6 @@ in
 
   xdg.configFile."waybar/style.css".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/waybar/style.css";
-
-  xdg.configFile."waybar/scripts/wifimenu".source =
-    config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/waybar/scripts/wifimenu";
-
-  xdg.configFile."waybar/scripts/bluetooth-menu".source =
-    config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/waybar/scripts/bluetooth-menu";
 
   programs.waybar = {
     enable = true;
