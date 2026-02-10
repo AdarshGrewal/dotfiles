@@ -29,7 +29,7 @@ in
     nautilus-open-any-terminal
     noto-fonts
     noto-fonts-cjk-sans
-    pkgs.catppuccin-cursors.mochaFlamingo
+    whitesur-cursors
     udiskie
     wl-clipboard
     xwayland-satellite
