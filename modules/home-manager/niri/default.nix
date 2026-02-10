@@ -7,30 +7,24 @@
   config,
   ...
 }:
+let
+  dotfilesDir = "${config.home.homeDirectory}/.dotfiles";
+in
 {
   imports = [
-    ./hypridle.nix
-    ./hyprland
-    ./hyprlock.nix
-    ./hyprpaper.nix
-    ./hyprpolkitagent.nix
-    ./kitty.nix
-    ./swaync.nix
     ./waybar
-    ./wofi.nix
   ];
+
+  xdg.configFile."niri/config.kdl".source =
+    config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/config.kdl";
 
   home.packages = with pkgs; [
     noto-fonts
     noto-fonts-cjk-sans
-    hyprshot
-    hyprpicker
     nautilus
     nautilus-open-any-terminal
     wl-clip-persist
-    hyprsysteminfo
     pkgs.catppuccin-cursors.mochaFlamingo
-    hyprutils
     udiskie
   ];
 }

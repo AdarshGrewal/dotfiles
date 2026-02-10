@@ -8,7 +8,6 @@
   ...
 }:
 {
-
   home.packages = with pkgs; [
     git-repo
     telegram-desktop

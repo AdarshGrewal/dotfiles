@@ -6,11 +6,11 @@
   # Enable NetworkManager
   networking.networkmanager.enable = true;
 
-  # Enable the Hyprland WM.
-  programs.hyprland = {
+  # Enable the niri WM.
+  programs.niri = {
     enable = true;
-    withUWSM = true;
   };
+
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   services.displayManager = {
@@ -20,8 +20,18 @@
     };
   };
 
-  # Enable pam for hyprlock
-  security.pam.services.hyprlock = { };
+  security.polkit.enable = true;
+  services.gnome.gnome-keyring.enable = true;
+  security.pam.services.swaylock = { };
+
+  programs.waybar.enable = true;
+  environment.systemPackages = with pkgs; [
+    alacritty
+    fuzzel
+    swaylock
+    mako
+    swayidle
+  ];
 
   # Enable udisks2 service
   services.udisks2.enable = true;

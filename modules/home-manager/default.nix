@@ -9,11 +9,11 @@
 }:
 {
   imports = [
-    ./hypr
     ./fastfetch.nix
     ./git.nix
     ./gtk-qt.nix
     ./home.nix
+    ./niri
     ./packages-unfree.nix
     ./packages.nix
     ./spicetify.nix
