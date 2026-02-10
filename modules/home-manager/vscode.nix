@@ -21,9 +21,19 @@
         "editor.fontFamily" = "'FiraCode Nerd Font', 'monospace', monospace";
         "terminal.integrated.fontSize" = 14;
         "terminal.integrated.fontFamily" = "'FiraCode Nerd Font Mono', 'monospace', monospace";
+
+        # Catppuccin BS
+        "workbench.colorTheme" = "Catppuccin Mocha";
+        "workbench.iconTheme" = "catppuccin-mocha";
+        "catppuccin.accentColor" = "flamingo";
+        "catppuccin.flavor" = "mocha";
+        "catppuccin-icons.specificFolders" = true;
+        "catppuccin-icons.hidesExplorerArrows" = false;
       };
       extensions = with pkgs.vscode-extensions; [
         jnoortheen.nix-ide
+        catppuccin.catppuccin-vsc
+        catppuccin.catppuccin-vsc-icons
       ];
     };
   };
