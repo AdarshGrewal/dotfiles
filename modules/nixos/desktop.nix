@@ -28,6 +28,7 @@
 
   environment.systemPackages = with pkgs; [
     waybar
+    lxqt.lxqt-policykit
     alacritty
     fuzzel
     swaylock

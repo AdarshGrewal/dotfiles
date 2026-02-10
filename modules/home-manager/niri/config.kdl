@@ -93,6 +93,7 @@ spawn-at-startup "swaybg" "-i" "/home/adarsh/.dotfiles/assets/walpapers/wallpape
 spawn-at-startup "wl-paste" "--type" "text" "--watch" "cliphist" "store"
 spawn-at-startup "wl-paste" "--type" "image" "--watch" "cliphist" "store"
 spawn-at-startup "udiskie"
+spawn-at-startup "lxqt-policykit-agent"
 
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
@@ -165,6 +166,11 @@ window-rule {
 
 window-rule {
   match app-id="nm-applet" 
+  open-floating true
+}
+
+window-rule {
+  match title="Authentication Required" 
   open-floating true
 }
 
