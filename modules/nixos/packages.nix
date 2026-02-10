@@ -21,7 +21,6 @@ in
       ghc
 
       htop
-      kitty
 
       neofetch
       nnn # terminal file manager

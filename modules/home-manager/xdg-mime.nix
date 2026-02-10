@@ -36,7 +36,7 @@ let
   ];
 
   terminalEmulator = [
-    "kitty.desktop"
+    "alacritty.desktop"
   ];
 
   imageViewer = [
