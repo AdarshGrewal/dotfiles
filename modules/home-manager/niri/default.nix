@@ -12,6 +12,7 @@ let
 in
 {
   imports = [
+    ./mako
     ./swaylock
     ./swayidle.nix
     ./waybar
