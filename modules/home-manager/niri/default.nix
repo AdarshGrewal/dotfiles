@@ -1,4 +1,4 @@
-# modules/home-manager/hypr/default.nix
+# modules/home-manager/niri/default.nix
 
 {
   inputs,
@@ -12,6 +12,7 @@ let
 in
 {
   imports = [
+    ./alacritty.nix
     ./mako
     ./swaylock
     ./swayidle.nix
