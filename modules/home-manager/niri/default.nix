@@ -13,6 +13,7 @@ in
 {
   imports = [
     ./alacritty.nix
+    ./fuzzel
     ./mako
     ./swaylock
     ./swayidle.nix
