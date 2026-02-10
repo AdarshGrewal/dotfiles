@@ -33,6 +33,7 @@
     swaylock
     mako
     swayidle
+    swaybg
   ];
 
   # Enable udisks2 service

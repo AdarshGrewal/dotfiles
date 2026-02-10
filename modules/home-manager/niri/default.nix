@@ -24,12 +24,14 @@ in
     config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/config.kdl";
 
   home.packages = with pkgs; [
-    noto-fonts
-    noto-fonts-cjk-sans
+    cliphist
     nautilus
     nautilus-open-any-terminal
-    wl-clip-persist
+    noto-fonts
+    noto-fonts-cjk-sans
     pkgs.catppuccin-cursors.mochaFlamingo
     udiskie
+    wl-clipboard
+    xwayland-satellite
   ];
 }
