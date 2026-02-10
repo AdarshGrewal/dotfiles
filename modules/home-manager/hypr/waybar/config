@@ -1,0 +1,139 @@
+[
+  {
+    "bluetooth": {
+      "format": "{icon}",
+      "format-connected": "󰂱 {device_alias}",
+      "format-icons": {
+        "connected": "󰂱",
+        "off": "󰂲",
+        "on": "󰂯"
+      },
+      "format-off": "󰂲",
+      "format-on": "󰂯",
+      "interval": 10,
+      "on-click": "~/.config/waybar/scripts/bluetooth-menu --custom wofi '--columns=1 --dmenu --insensitive --prompt' '-d -p' '-d --password --prompt' &",
+      "tooltip-format": "{controller_alias}\n{num_connections} connected",
+      "tooltip-format-connected": "{controller_alias}\nConnected: {device_enumerate}",
+      "tooltip-format-enumerate-connected": "{device_alias}"
+    },
+    "clock": {
+      "format": "  {:%I:%M %p}",
+      "format-alt": "  {:%a, %d %b %Y}",
+      "tooltip-format": "{calendar}"
+    },
+    "cpu": {
+      "format": " {}%",
+      "format-icons": [
+        "",
+        ""
+      ],
+      "interval": 5,
+      "max-length": 10,
+      "tooltip": true
+    },
+    "custom/notifications": {
+      "escape": true,
+      "exec": "swaync-client -swb",
+      "exec-if": "which swaync-client",
+      "format": "",
+      "on-click": "sleep 0.1 && swaync-client -t -sw",
+      "tooltip": false
+    },
+    "height": 34,
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "active": "󱓻",
+        "default": "",
+        "urgent": "󱓻"
+      },
+      "on-click": "activate",
+      "persistent_workspaces": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      }
+    },
+    "layer": "top",
+    "memory": {
+      "format": " {}%",
+      "interval": 5,
+      "max-length": 10
+    },
+    "modules-center": [
+      "clock"
+    ],
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "tray",
+      "memory",
+      "cpu",
+      "bluetooth",
+      "network",
+      "wireplumber",
+      "custom/notifications"
+    ],
+    "network": {
+      "format-alt": "󱛇",
+      "format-disconnected": "󰖪",
+      "format-ethernet": "󰀂",
+      "format-icons": [
+        "󰤯",
+        "󰤟",
+        "󰤢",
+        "󰤥",
+        "󰤨"
+      ],
+      "format-wifi": "{icon}",
+      "interval": 5,
+      "nospacing": 1,
+      "on-click": "~/.config/waybar/scripts/wifimenu --custom wofi '--columns=1 --dmenu --insensitive --prompt' '-d -p' '-d --password --prompt' &",
+      "tooltip-format-disconnected": "Disconnected",
+      "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+      "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}"
+    },
+    "position": "top",
+    "spacing": 0,
+    "tray": {
+      "spacing": 10
+    },
+    "wireplumber": {
+      "format": "{icon}",
+      "format-bluetooth": "󰂰",
+      "format-icons": {
+        "default": [
+          "󰖀",
+          "󰕾",
+          ""
+        ],
+        "headphone": ""
+      },
+      "format-muted": "󰝟",
+      "nospacing": 1,
+      "on-click": "pamixer -t",
+      "scroll-step": 1,
+      "tooltip-format": "Volume : {volume}%"
+    },
+    "wlr/taskbar": {
+      "format": "{icon}",
+      "icon-size": 25,
+      "icon-theme": "WhiteSur",
+      "on-click": "activate",
+      "on-click-right": "fullscreen",
+      "tooltip-format": "{title}"
+    }
+  }
+]

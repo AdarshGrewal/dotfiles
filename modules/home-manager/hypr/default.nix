@@ -16,7 +16,7 @@
     ./hyprpolkitagent.nix
     ./kitty.nix
     ./swaync.nix
-    ./waybar.nix
+    ./waybar
     ./wofi.nix
   ];
 
