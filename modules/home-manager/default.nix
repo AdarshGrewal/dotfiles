@@ -16,10 +16,10 @@
     ./niri
     ./packages-unfree.nix
     ./packages.nix
+    ./shell.nix
     ./spicetify.nix
     ./vscode.nix
     ./xdg-mime.nix
-    ./zsh.nix
   ];
   programs.home-manager.enable = true;
   home.packages = with pkgs; [
