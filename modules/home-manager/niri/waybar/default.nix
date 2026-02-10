@@ -22,8 +22,4 @@ in
 
   xdg.configFile."waybar/style.css".source =
     config.lib.file.mkOutOfStoreSymlink "${dotfilesDir}/modules/home-manager/niri/waybar/style.css";
-
-  programs.waybar = {
-    enable = true;
-  };
 }
