@@ -10,7 +10,7 @@
 {
   imports = [
     ./hypridle.nix
-    ./hyprland.nix
+    ./hyprland
     ./hyprlock.nix
     ./hyprpaper.nix
     ./hyprpolkitagent.nix
